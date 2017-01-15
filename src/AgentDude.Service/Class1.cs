@@ -7,6 +7,7 @@ namespace AgentDude.Service
 {
     public class Class1
     {
+		[Test]
         public Class1()
         {
         }

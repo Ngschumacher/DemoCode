@@ -11,8 +11,8 @@ namespace AgentDude.service.Test
         public Class1()
         {
 
-			return new AutoRun(typeof(Program).GetTypeInfo().Assembly)
-				.Execute(args, new ExtendedTextWrapper(Console.Out), Console.In);
+			//return new AutoRun(typeof(Program).GetTypeInfo().Assembly)
+			//	.Execute(args, new ExtendedTextWrapper(Console.Out), Console.In);
 		}
     }
 }
