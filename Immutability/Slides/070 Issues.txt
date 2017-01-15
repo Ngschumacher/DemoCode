@@ -1,0 +1,9 @@
+﻿Why aren't we good at this?
+- Sometimes (local) mutability is just easier
+- Language encourages mutability with things like object/collection initializers
+  - Few features designed with immutability in mind
+  - Static analysis of immutability would require language/library/runtime support
+- Lack of framework support is discouraging (immutable collections)
+- Serialization frameworks often don't support immutability well
+  - IXmlSerializable, I'm looking at you...
+- Even immutable structs aren't really - lack of atomicity is a pain
